@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import google.generativeai as genai
 import streamlit as st
 # load_dotenv()
