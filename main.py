@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 import streamlit as st
-load_dotenv()
+# load_dotenv()
+API_KEY = "AIzaSyCDOwPq7kOMbCoZcZZ8Xx8bJC6xLjPlSDE"
 genai.configure(api_key=os.getenv("API_KEY"))
 st.title("Generative AI Search")
 st.write("Enter your query and let AI assist you!")
